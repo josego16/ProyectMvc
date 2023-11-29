@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ProyectMvc</string>
+    <string name="descripcion_img">imagen</string>
+    <string name="txt_name">Name ver</string>
+    <string name="txt_escuderia">Escuderia para ver</string>
+    <string name="txt_fabrica">Fabrica para ver</string>
+    <string name="txt_contacto">000 000 000</string>
+    <string name="descripcion_edit">boton editar</string>
+    <string name="descripcion_delete">boton editar</string>
 </resources>
