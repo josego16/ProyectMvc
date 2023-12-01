@@ -3,12 +3,13 @@ package com.example.proyectmvc.controller
 import android.content.Context
 import android.widget.Toast
 import com.example.proyectmvc.MainActivity
-import com.example.proyectmvc.adapter.adapterCoches
+import com.example.proyectmvc.adapter.AdapterCoches
 import com.example.proyectmvc.dao.DaoCoches
 import com.example.proyectmvc.models.coche
 
 class Controller(private val context: Context) {
     private lateinit var listCoches: MutableList<coche>
+    private lateinit var adapterCoches: AdapterCoches
 
     init {
         initData()
@@ -27,6 +28,25 @@ class Controller(private val context: Context) {
 
     fun setAdapter() {
         val myActivity = context as MainActivity
-        myActivity.mainBinding.myRecyclerView.adapter = adapterCoches(listCoches)
+        adapterCoches = AdapterCoches(
+            listCoches,
+            { pos ->
+                delCoche(pos)
+            },
+            { pos ->
+                updateCoche(pos)
+            }
+        )
+        myActivity.mainBinding.myRecyclerView.adapter = adapterCoches
+    }
+
+    private fun updateCoche(pos: Int) {
+
+    }
+
+    private fun delCoche(pos: Int) {
+        Toast.makeText(context, "Borramos el coche con la posicion $pos", Toast.LENGTH_LONG).show()
+        listCoches.removeAt(pos)
+        adapterCoches.notifyItemRemoved(pos)
     }
 }
