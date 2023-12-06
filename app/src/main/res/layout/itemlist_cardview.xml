@@ -17,7 +17,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:contentDescription="@string/descripcion_img"
-            android:src="@color/white"
+            android:src="@color/editTextBg"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

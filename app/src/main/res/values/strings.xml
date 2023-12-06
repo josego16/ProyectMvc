@@ -3,8 +3,14 @@
     <string name="descripcion_img">imagen</string>
     <string name="txt_name">Name ver</string>
     <string name="txt_escuderia">Escuderia para ver</string>
+    <string name="text_creador">Diseñado por Jose Maria</string>
     <string name="txt_fabrica">Fabrica para ver</string>
     <string name="txt_contacto">000 000 000</string>
     <string name="descripcion_edit">boton editar</string>
     <string name="descripcion_delete">boton editar</string>
+    <string name="descripcion_imagen">imagen login</string>
+    <string name="texto_name">Introduce un usuario</string>
+    <string name="texto_contraseña">Introduce una contraseña</string>
+    <string name="texto_btn_enter">Entrar</string>
+    <string name="text_card_main">App Diseñada por Jose Maria Gomez Liñan</string>
 </resources>
