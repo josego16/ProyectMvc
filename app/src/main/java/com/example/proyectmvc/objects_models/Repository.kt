@@ -74,6 +74,14 @@ object Repository {
             "FW43B",
             "+44 987654321",
             "https://urlzs.com/aFi21"
+        ),
+
+        coche(
+            "Alfa Romeo Racing",
+            "Alfa Romeo",
+            "C41",
+            "+39 987654321",
+            "https://acortar.link/FxPOeo"
         )
     )
 }
