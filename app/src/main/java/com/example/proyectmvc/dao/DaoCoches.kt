@@ -1,7 +1,7 @@
 package com.example.proyectmvc.dao
 
 import com.example.proyectmvc.interfaces.InterfazDao
-import com.example.proyectmvc.models.coche
+import com.example.proyectmvc.models.Coche
 import com.example.proyectmvc.objects_models.Repository
 
 class DaoCoches private constructor() : InterfazDao {
@@ -11,5 +11,5 @@ class DaoCoches private constructor() : InterfazDao {
         }
     }
 
-    override fun getDataHotels(): List<coche> = Repository.listCoches
+    override fun getDataHotels(): List<Coche> = Repository.listCoches
 }

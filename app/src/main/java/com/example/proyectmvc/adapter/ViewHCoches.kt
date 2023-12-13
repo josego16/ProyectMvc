@@ -4,9 +4,9 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.proyectmvc.databinding.ItemlistCardviewBinding
-import com.example.proyectmvc.models.coche
+import com.example.proyectmvc.models.Coche
 
-class viewHCoches(
+class ViewHCoches(
     view: View,
     var deleteOnClick: (Int) -> Unit,
     var updateOnClick: (Int) -> Unit
@@ -17,7 +17,7 @@ class viewHCoches(
         binding = ItemlistCardviewBinding.bind(view)
     }
 
-    fun renderize(car: coche, position: Int) {
+    fun renderize(car: Coche, position: Int) {
         binding.textName.text = car.name
         binding.textEscuderia.text = car.escuderia
         binding.textFabrica.text = car.fabrica

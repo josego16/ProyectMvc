@@ -5,10 +5,10 @@ import android.widget.Toast
 import com.example.proyectmvc.MainActivity
 import com.example.proyectmvc.adapter.AdapterCoches
 import com.example.proyectmvc.dao.DaoCoches
-import com.example.proyectmvc.models.coche
+import com.example.proyectmvc.models.Coche
 
 class Controller(private val context: Context) {
-    private lateinit var listCoches: MutableList<coche>
+    private lateinit var listCoches: MutableList<Coche>
     private lateinit var adapterCoches: AdapterCoches
 
     init {

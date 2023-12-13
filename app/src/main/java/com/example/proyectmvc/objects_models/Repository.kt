@@ -1,10 +1,10 @@
 package com.example.proyectmvc.objects_models
 
-import com.example.proyectmvc.models.coche
+import com.example.proyectmvc.models.Coche
 
 object Repository {
-    val listCoches: List<coche> = listOf(
-        coche(
+    val listCoches: List<Coche> = listOf(
+        Coche(
             "Mercedes-AMG",
             "Mercedes",
             "Mercedes-AMG",
@@ -12,7 +12,7 @@ object Repository {
             "https://urlzs.com/XYanF"
         ),
 
-        coche(
+        Coche(
             "Red Bull Racing",
             "Red Bull",
             "Red Bull Racing",
@@ -20,7 +20,7 @@ object Repository {
             "https://urlzs.com/8zPjy"
         ),
 
-        coche(
+        Coche(
             "Scuderia Ferrari",
             "Ferrari",
             "SF21",
@@ -28,7 +28,7 @@ object Repository {
             "https://urlzs.com/SZXqr"
         ),
 
-        coche(
+        Coche(
             "McLaren F1 Team",
             "McLaren",
             "MCL35M",
@@ -36,7 +36,7 @@ object Repository {
             "https://urlzs.com/x6Q9w"
         ),
 
-        coche(
+        Coche(
             "Alpine F1 Team",
             "Alpine",
             "A521",
@@ -44,7 +44,7 @@ object Repository {
             "https://urlzs.com/yuvCC"
         ),
 
-        coche(
+        Coche(
             "Scuderia AlphaTauri",
             "AlphaTauri",
             "AT02",
@@ -52,7 +52,7 @@ object Repository {
             "https://urlzs.com/1J4m2"
         ),
 
-        coche(
+        Coche(
             "Aston Martin F1 Team",
             "Aston Martin",
             "AMR21",
@@ -60,7 +60,7 @@ object Repository {
             "https://urlzs.com/4MykY"
         ),
 
-        coche(
+        Coche(
             "Haas F1 Team",
             "Haas",
             "VF-21",
@@ -68,7 +68,7 @@ object Repository {
             "https://urlzs.com/WPwPj"
         ),
 
-        coche(
+        Coche(
             "Williams Racing",
             "Williams",
             "FW43B",
@@ -76,7 +76,7 @@ object Repository {
             "https://urlzs.com/aFi21"
         ),
 
-        coche(
+        Coche(
             "Alfa Romeo Racing",
             "Alfa Romeo",
             "C41",

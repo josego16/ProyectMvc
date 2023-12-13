@@ -1,6 +1,6 @@
 package com.example.proyectmvc.models
 
-class coche(
+class Coche(
     var name: String,
     var escuderia: String,
     var fabrica: String,
