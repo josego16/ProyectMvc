@@ -13,4 +13,5 @@
     <string name="texto_contraseña">Introduce una contraseña</string>
     <string name="texto_btn_enter">Entrar</string>
     <string name="text_card_main">App Diseñada por Jose Maria Gomez Liñan</string>
+    <string name="descripcion_add">boton añadir items</string>
 </resources>

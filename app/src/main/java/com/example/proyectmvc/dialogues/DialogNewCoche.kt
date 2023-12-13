@@ -1,4 +1,7 @@
 package com.example.proyectmvc.dialogues
 
-class DialogNewCoche {
+import androidx.fragment.app.DialogFragment
+
+class DialogNewCoche: DialogFragment() {
+
 }
