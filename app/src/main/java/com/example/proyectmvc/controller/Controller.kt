@@ -16,7 +16,7 @@ class Controller(private val context: Context) {
     }
 
     private fun initData() {
-        listCoches = DaoCoches.mydao.getDataHotels().toMutableList()
+        listCoches = DaoCoches.mydao.getDataCoches().toMutableList()
     }
 
     fun loggOut() {

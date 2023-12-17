@@ -11,5 +11,5 @@ class DaoCoches private constructor() : InterfazDao {
         }
     }
 
-    override fun getDataHotels(): List<Coche> = Repository.listCoches
+    override fun getDataCoches(): List<Coche> = Repository.listCoches
 }

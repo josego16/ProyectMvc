@@ -4,5 +4,5 @@ import com.example.proyectmvc.models.Coche
 import com.example.proyectmvc.objects_models.Repository
 
 interface InterfazDao {
-    fun getDataHotels(): List<Coche> = Repository.listCoches
+    fun getDataCoches(): List<Coche> = Repository.listCoches
 }
